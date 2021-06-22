@@ -28,9 +28,9 @@ async def start(message):
     else:
         await bot.send_message(message.from_user.id, "Ничья!")
 
-@dp.message_handler()
-async def echo(message: types.Message):
-   await message.answer(message.text)
+# @dp.message_handler()
+# async def echo(message: types.Message):
+#    await message.answer(message.text)
 
 # @dp.message_handler()
 # async def filter_message(message):
